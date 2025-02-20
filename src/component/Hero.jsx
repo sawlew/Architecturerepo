@@ -4,8 +4,8 @@ import HouseImg from '../assets/1.jpg'
 const Hero = () => {
   return (
     <div>
-      <div className='w-[80%] mx-auto pt-5 pb-10 relative'>
-          <div className='w-full text-right'>
+      <div className='w-[80%] mx-auto py-10 relative'>
+          <div className='w-full text-right mb-3'>
               <h1 className='text-8xl whitespace-nowrap'>INSPIRED BY INNOVATION,</h1>
           </div>
           <div className='w-full flex justify-between items-center'>
