@@ -16,12 +16,8 @@ const Vision = () => {
             </div>
         </div>
         <div className='flex gap-6 py-8 border-b-2 border-black'>
-            <div className='w-[45%] h-96 bg-cover' style={{ backgroundImage: `url(${Architect})` }}>
-                {/* <img className='object-cover' src={Architect} alt="" /> */}
-            </div>
-            <div className='w-[55%] h-96 bg-cover' style={{ backgroundImage: `url(${ArchiDesign})` }}>
-                {/* <img className='object-cover' src={ArchiDesign} alt="" /> */}
-            </div>
+            <div className='w-[45%] h-96 bg-cover grayscale' style={{ backgroundImage: `url(${Architect})` }} />
+            <div className='w-[55%] h-96 bg-cover grayscale' style={{ backgroundImage: `url(${ArchiDesign})` }} />
         </div>
     </div>
   )
